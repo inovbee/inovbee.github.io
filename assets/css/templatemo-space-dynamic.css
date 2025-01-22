@@ -193,7 +193,7 @@ body {
 }
 
 .section-heading h2 span {
-  color: #fe3f40;
+  color: #ffcd07;
 }
 
 .main-blue-button a {
@@ -210,7 +210,7 @@ body {
 
 .main-red-button a {
   display: inline-block;
-  background-color: #fe3f40;
+  background-color:#ffcd07;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -258,7 +258,7 @@ header
 }
 
 .background-header .nav li a.active {
-  color: #fe3f40!important;
+  color: #ffcd07!important;
 }
 
 .header-area {
@@ -298,7 +298,7 @@ header
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #03a4ed;
+    color: black;
     line-height: 100px;
     float: left;
     -webkit-transition: all 0.3s ease 0s;
@@ -306,9 +306,21 @@ header
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
-
+.log{
+  height: 100px;
+  width: 85px;
+  margin: 0px;
+  padding: 0px;
+}
 .logo h4 span {
-  color: #fe3f40;
+  color: #ffcd07;
+}
+.whatsapp{
+  height: 50px;
+  width: 50px;
+  margin: 0px;
+  padding: 0px;
+
 }
 
 .background-header .main-nav .logo h4 {
@@ -339,20 +351,17 @@ header
 
 .header-area .main-nav .nav li:last-child {
   padding-right: 0px;
-  padding-left: 40px;
+  
 }
 
 .header-area .main-nav .nav li:last-child a ,
 .background-header .main-nav .nav li:last-child a {
-  color: #fff !important;
-  padding: 0px 20px;
+  
+  padding: 0px 0px;
   font-weight: 400;
 }
 
-.header-area .main-nav .nav li:last-child a:hover,
-.header-area .main-nav .nav li:last-child a.active {
-  color: #fff !important;
-}
+
 
 .header-area .main-nav .nav li a {
   display: block;
@@ -376,19 +385,16 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fe3f40!important;
+  color: #ffcd07!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fe3f40!important;
+  color: #ffcd07!important;
   opacity: 1;
 }
 
-.header-area .main-nav .nav li:last-child a:hover ,
-.background-header .main-nav .nav li:last-child a:hover {
-  background-color: #03a4ed;
-}
+
 
 .header-area .main-nav .nav li.submenu {
   position: relative;
@@ -448,7 +454,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #fe3f40!important;
+  color: #ffcd07!important;
   padding-left: 25px;
 }
 
@@ -588,7 +594,8 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fe3f40;
+  color: #ffcd07;
+  
 }
 
 @media (max-width: 1200px) {
@@ -601,16 +608,7 @@ header
   }
 }
 
-@media (max-width: 992px) {
-  .header-area .main-nav .nav li:last-child  ,
-  .background-header .main-nav .nav li:last-child {
-    display: none;
-  }
-  .header-area .main-nav .nav li:nth-child(6),
-  .background-header .main-nav .nav li:nth-child(6) {
-    padding-right: 0px;
-  }
-}
+
 
 @media (max-width: 767px) {
   .background-header .main-nav .nav {
@@ -621,7 +619,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #fe3f40!important;
+    color: #ffcd07!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -682,7 +680,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #fe3f40!important;
+    color: #ffcd07!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -796,7 +794,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #fe3f40;
+    background: #ffcd07;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -819,7 +817,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #fe3f40;
+    background: #ffcd07;
     border-radius: 50%;
 }
 
@@ -835,7 +833,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 226px 0px 120px 0px;
+  padding: 226px 0px 30px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -869,7 +867,7 @@ Banner Style
 .main-banner .left-content h6 {
   text-transform: uppercase;
   font-size: 18px;
-  color: #fe3f40;
+  color: #ffcd07;
   margin-bottom: 15px;
 }
 
@@ -886,7 +884,7 @@ Banner Style
 }
 
 .main-banner .left-content h2 span {
-  color: #fe3f40;
+  color: #ffcd07;
 }
 
 .main-banner .left-content p {
@@ -905,10 +903,10 @@ Banner Style
   right: 10px;
   top: 10px;
   display: inline-block;
-  background-color: #fff;
+  background-color: #ffcd07;
   font-size: 15px;
   font-weight: 500;
-  color: #fe3f40;
+  color: #2a2a2a;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -937,54 +935,7 @@ Banner Style
 
 
 
-/* 
----------------------------------------------
-About Us Style
---------------------------------------------- 
-*/
-
-#about {
-  margin-top: 120px;
-}
-
-.about-us {
-  background-image: url(../images/about-bg.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  padding: 140px 0px 120px 0px;
-}
-
-.about-us .left-image {
-  margin-right: 45px;
-}
-
-.about-us .services .item {
-  margin-bottom: 30px;
-}
-
-.about-us .services .item .icon {
-  float: left;
-  margin-right: 25px;
-}
-
-.about-us .services .item .icon img {
-  max-width: 70px;
-}
-
-.about-us .services .item h4 {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 12px;
-}
-
-.about-us .services .item p {
-  color: #fff;
-}
-
-
-/* 
+/*  
 ---------------------------------------------
 Services Style
 --------------------------------------------- 
@@ -992,84 +943,36 @@ Services Style
 
 .our-services {
   margin-top: 0px;
-  padding-top: 120px;
+  padding-top: 50px;
 }
+.About{
+  text-align: center;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  font-size: 35px;
+  text-transform: capitalize;
+  color: #2a2a2a;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  position: relative;
+  z-index: 2;
+  line-height: 44px;
 
+}
 .our-services .left-image {
   margin-right: 45px;
 }
 
 .our-services .section-heading h2 {
   margin-right: 100px;
+  padding-bottom: 20px;
+  
 }
 
 .our-services .section-heading p {
   margin-top: 30px;
   margin-bottom: 60px;
-}
-
-.our-services .progress-skill-bar {
-  margin-bottom: 30px;
-  position: relative;
-  width: 100%;
-}
-
-.our-services .progress-skill-bar span {
-  position: absolute;
-  top: 0;
-  font-size: 18px;
-  font-weight: 600;
-  color: #03a4ed;
-}
-
-.our-services .first-bar span {
-  left: 69%;
-}
-
-.our-services .second-bar span {
-  left: 81%;
-}
-
-.our-services .third-bar span {
-  left: 88%;
-}
-
-.our-services .progress-skill-bar h4 {
-  font-size: 18px;
-  font-weight: 700;
-  color: #2a2a2a;
-  margin-bottom: 14px;
-}
-
-.our-services .progress-skill-bar .full-bar {
-  width: 100%;
-  height: 6px;
-  border-radius: 3px;
-  background-color: #f7eff1;
-  position: relative;
-  z-index: 1;
-}
-
-.our-services .progress-skill-bar .filled-bar {
-  background: rgb(255,77,30);
-  background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
-  height: 6px;
-  border-radius: 3px;
-  margin-bottom: -6px;
-  position: relative;
-  z-index: 2;
-}
-
-.our-services .first-bar .filled-bar {
-  width: 71%;
-}
-
-.our-services .second-bar .filled-bar {
-  width: 83%;
-}
-
-.our-services .third-bar .filled-bar {
-  width: 90%;
+  line-height: 35px;
 }
 
 
@@ -1106,44 +1009,11 @@ Portfolio
   top: 90px;
 }
 
-.our-portfolio .hidden-content {
-  background: rgb(255,77,30);
-  background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
-  padding: 30px;
-  border-radius: 20px;
-  text-align: center;
-  opacity: 0;
-  top: 0;
-  visibility: hidden;
-  position: absolute;
-  z-index: 2;
-  transition: all 0.5s;
-}
 
-.our-portfolio .hidden-content:after {
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  background: rgb(255,77,30);
-  content: '';
-  left: 50%;
-  bottom: -8px;
-  margin-left: -5px;
-  transform: rotate(45deg);
-  background: linear-gradient(105deg, rgba(255,52,69,1) 0%, rgba(255,51,78,1) 100%);
-  z-index: -1;
-}
 
-.our-portfolio .hidden-content h4 {
-  font-size: 20px;
-  font-weight: 700;
-  color: #fff;
-  margin-bottom: 20px;
-}
 
-.our-portfolio .hidden-content p {
-  color: #fff;
-}
+
+
 
 .our-portfolio .showed-content {
   top: 0px;
@@ -1158,7 +1028,18 @@ Portfolio
 }
 
 .our-portfolio .showed-content img {
-  max-width: 100px;
+  max-width: 150px;
+  height: 150px;
+  object-fit: cover;
+
+}
+.our-portfolio .showed-content h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin: 20px 0px 15px 0px;
+  text-transform: capitalize;
+  letter-spacing: 0.25px;
 }
 
 
@@ -1262,7 +1143,7 @@ Blog
 }
 
 .our-blog .right-list .left-content span i {
-  color: #ff4d61;
+  color: #ffcd07;
   font-size: 16px;
   margin-right: 8px;
 }
@@ -1476,8 +1357,8 @@ responsive
     text-align: center;
   }
   .about-us .services .item  {
-    background: rgb(255,77,30);
-    background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
+    background: rgb(233, 255, 30);
+    background: linear-gradient(105deg, rgb(147, 245, 11) 0%, rgb(115, 255, 1) 100%);
     padding: 30px;
     border-radius: 20px;
     display: inline-block;
